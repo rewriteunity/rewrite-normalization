@@ -36,7 +36,7 @@ cd rewrite-normalization
 pip install -e .
 
 # 2.  Run the interactive demo
-python demos/demo_gauss.py
+python demos.py
 
 # 3.  Execute the test suite
 pytest
