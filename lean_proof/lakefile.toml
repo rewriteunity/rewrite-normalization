@@ -1,0 +1,14 @@
+name = "rewrite_collapse"
+version = "0.1.0"
+defaultTargets = ["rewrite_collapse"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "RewriteCollapse"
+
+[[lean_exe]]
+name = "rewrite_collapse"
+root = "Main"
