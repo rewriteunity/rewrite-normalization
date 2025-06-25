@@ -5,17 +5,22 @@ build/
 pip-wheel-metadata/
 
 __pycache__/
+.pytest_cache
 *.py[cod]
+*.pyc
 
 .venv/
 venv/
 env/
 
-lean_proof/.lake/build/
-lean_proof/.lake/packages/
-*.olean
-
 .vscode/
 .idea/
+
 .DS_Store
 Thumbs.db
+
+lean_proof/.lake/build/
+lean_proof/.lake/packages/
+lean_proof/*.olean
+
+*.olean
