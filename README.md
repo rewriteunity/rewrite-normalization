@@ -9,7 +9,7 @@ This repository contains:
   (collapse map, structural entropy, Gaussian-elimination demo, etc.).
 - **Lean 4 formalisation** of key theorems (termination, monotonicity).
 - A growing **benchmark suite** for algebraic and combinatorial systems.
-- **Emergence demos** (in Jupyter) demonstrating our new “ridge-tracing” framework—see below.
+- **Emergence demos** demonstrating our new “ridge-tracing” framework—see below.
 
 ---
 
@@ -32,8 +32,8 @@ elimination and detects a phase-shift in `Sₙ` at the solvability threshold.
 
 We’ve recently added a set of interactive Jupyter notebooks exploring the  
 “Emergence Gap” and ridge-tracing algorithms on classical examples (dice-sums,  
-Rule 110 CA, logistic map, etc.).  This is still exploratory (“less fleshed out”),  
-but you can browse and run them here:
+Rule 110 CA, logistic map, etc.).  This code doesn't have the same level of testing
+and development, but you can browse and run them here:
 
 - **`EmergenceDemos.ipynb`** — step through the entropy vs. collapse metrics,  
   plot curvature spikes, and inspect critical depths for several systems.
